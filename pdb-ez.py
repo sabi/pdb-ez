@@ -213,6 +213,7 @@ if __name__ == "__main__":
               [evangelion]
               series = 新世紀エヴァンゲリオン
               tag = エヴァンゲリオン
+              discord = http://discord.com/yaddayaddayadda
 
             Store your username and password in pixiv.creds
               sabi
