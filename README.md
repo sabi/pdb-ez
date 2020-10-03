@@ -10,7 +10,7 @@ Simply download this script and copy it to your pixiv-discord-bot directory. The
 ## How to use
 - *NOTICE*: This will **delete** existing JSON files with the same name, so make sure you reflect existing configs in ez.conf
 - If you have a config setup, to generate or update your JSON files
-  -`python3 pdb-ez.py`
+  - `python3 pdb-ez.py`
 - Then with your new JSON files execute pixiv-discord-bot.
 
 ## Do you need separate .conf files for each series you are scraping?
