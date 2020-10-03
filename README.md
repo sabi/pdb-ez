@@ -3,6 +3,7 @@ Sabi. Simple, Lightweight, but Not Beautiful.
 
 ## What is it?
 pdb-ez is an easy configuration generator for [pixiv-discord-bot](http://github.com/carter-yagemann/pixiv-discord-bot).
+*NOTICE*: This will **delete** existing JSON files with the same name, so make sure you reflect existing configs in ez.conf
 
 ## Installation
 Simply download this script and copy it to your pixiv-discord-bot directory. Then execute `python3 pdb-ez.py`.  This will generate the ez.conf file and pixiv.creds.  Follow the commented example in ez.conf and replace the username and password with your Pixiv credentials in pixiv.creds.
