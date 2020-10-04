@@ -154,9 +154,9 @@ def writePDBconfig(bigDict):
             conf.write('"sub_tags": [\n')
             for i in range(len(bigDict[cat]["tag"])):
                 if i != len(bigDict[cat]["tag"]) - 1:
-                    conf.write('"' + bigDict[cat]["tag"][i] + '","Found","Missed",\n')
+                    conf.write('["' + bigDict[cat]["tag"][i] + '","Found","Missed"],\n')
                 else:
-                    conf.write('"' + bigDict[cat]["tag"][i] + '","Found","Missed"\n')
+                    conf.write('["' + bigDict[cat]["tag"][i] + '","Found","Missed"]\n')
             conf.write('],\n')
 
             if bigDict[cat]["wildcard"] == "yes":
