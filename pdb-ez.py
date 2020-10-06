@@ -202,6 +202,7 @@ def main():
     writeEZconfig(bigDict)
     readCreds(bigDict)
     writePDBconfig(bigDict)
+    print("JSON files generated for pixiv-discord-bot")
 
 # Start Program
 if __name__ == "__main__":
