@@ -154,9 +154,10 @@ def writePDBconfig(bigDict):
             conf.write('"sub_tags": [\n')
             for i in range(len(bigDict[cat]["tag"])):
                 if i != len(bigDict[cat]["tag"]) - 1:
-                    conf.write('["' + bigDict[cat]["tag"][i] + '","Found","Missed"],\n')
+                    # The empty string in the two following writes is the Found message. Leaving it a single space will post no message to Discord with your picture.
+                    conf.write('["' + bigDict[cat]["tag"][i] + '"," ","Missed"],\n')
                 else:
-                    conf.write('["' + bigDict[cat]["tag"][i] + '","Found","Missed"]\n')
+                    conf.write('["' + bigDict[cat]["tag"][i] + '"," ","Missed"]\n')
             conf.write('],\n')
 
             if bigDict[cat]["wildcard"] == "yes":
